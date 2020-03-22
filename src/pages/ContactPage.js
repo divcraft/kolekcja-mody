@@ -1,10 +1,11 @@
 import React from 'react';
+import NavBar from '../components/NavBar';
 
 const ContactPage = () => {
    return (
       <>
          <header>
-            header
+            <NavBar />
          </header>
          <main>
             contactpage

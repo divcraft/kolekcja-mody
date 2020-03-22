@@ -1,0 +1,34 @@
+.nav-bar
+   height: 108px
+   display: flex
+   align-items: center
+   justify-content: space-between
+   button
+      background: none
+      border: none
+      cursor: pointer
+   nav
+      ul
+         background: white
+         position: absolute
+         top: 108px
+         bottom: 0
+         left: 0
+         right: 0
+         list-style: none
+         display: none
+         flex-direction: column
+         text-align: center
+         &.active
+            display: flex
+         a
+            display: block
+            background-color: $c-pink-light
+            height: 60px
+            line-height: 60px
+            border-bottom: 1px solid white
+            color: $c-gray-dark
+            text-decoration: none
+            &:hover, &.active
+               background: $c-pink-dark
+               color: white

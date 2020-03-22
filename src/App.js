@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
-import './styles/style.sass';
+import './styles/App.sass';
 // import ScrollToTop from './components/ScrollToTop';
 import HomePage from './pages/HomePage';
 import NewsPage from './pages/NewsPage';
