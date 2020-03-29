@@ -1,12 +1,12 @@
 import React from 'react';
 import Image from './Image';
 import navIconWhite from '../images/svg/menu-icon-white.svg'
-// import navIconGray from '../images/svg/menu-icon-gray.svg'
+import navIconGray from '../images/svg/menu-icon-gray.svg'
 
-const MenuButton = ({ handleToggleMenu }) => {
+const MenuButton = ({ handleToggleMenu, isWhite }) => {
    return (
       <button onClick={handleToggleMenu}>
-         <Image src={navIconWhite} alt='menu' />
+         <Image src={isWhite ? navIconGray : navIconWhite} alt='menu' />
       </button>
    );
 }

@@ -1,8 +1,16 @@
 .nav-bar
-   height: 108px
+   position: fixed
+   z-index: 2
+   left: 0
+   right: 0
+   height: 100px
    display: flex
    align-items: center
    justify-content: space-between
+   padding: 0 5%
+   &.white-bg
+      background-color: white
+      box-shadow: 0 -10px 15px 1px black
    button
       background: none
       border: none
@@ -32,3 +40,29 @@
             &:hover, &.active
                background: $c-pink-dark
                color: white
+@media (min-width: 768px)
+   .nav-bar
+      &.white-bg a
+         color: $c-gray-dark
+         &:hover
+            color: black
+      nav
+         button
+            display: none
+         ul
+            background: none
+            position: static
+            top: auto
+            bottom: auto
+            left: auto
+            right: auto
+            display: flex
+            flex-direction: row
+            a
+               margin-left: 30px
+               background: none
+               border: none
+               color: white
+               &:hover
+                  background: none
+                  color: $c-pink-light

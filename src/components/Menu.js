@@ -13,7 +13,7 @@ class Menu extends Component {
    render() {
       return (
          <nav className="nav-menu">
-            <MenuButton handleToggleMenu={this.handleToggleMenu} />
+            <MenuButton handleToggleMenu={this.handleToggleMenu} isWhite={this.props.isWhite} />
             <MenuList isMenuActive={this.state.isMenuActive} />
          </nav>
       );

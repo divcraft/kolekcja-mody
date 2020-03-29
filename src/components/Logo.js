@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Image from './Image';
 import logoHome from '../images/logo-home.png';
-// import logoAll from '../images/logo-all.png';
+import logoAll from '../images/logo-all.png';
 
-const Logo = () => {
+const Logo = ({ isWhite }) => {
    return (
       <Link to='/'>
-         <Image src={logoHome} alt='logo' />
+         <Image src={isWhite ? logoAll : logoHome} alt='logo' />
       </Link>
    );
 }

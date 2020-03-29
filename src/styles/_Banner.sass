@@ -1,0 +1,83 @@
+.banner
+   padding-top: 108px
+   position: relative
+   height: 100%
+   h1, h2
+      margin-right: 45px
+   h2
+      margin-top: 30px
+      padding-top: 10px
+      position: relative
+      &::before
+         content: ''
+         position: absolute
+         top: 0
+         left: 0
+         background-color: $c-pink-light
+         width: 180px
+         height: 2px
+   a.banner-btn
+      position: relative
+      z-index: 1
+      margin-top: 30px
+      display: block
+      text-decoration: none
+      background-color: $c-pink-dark
+      width: 180px
+      height: 55px
+      line-height: 55px
+      text-align: center
+      color: white
+      border-radius: 30px
+   .media-icons
+      position: absolute
+      right: -6%
+      top: 50%
+      transform: translateY(-50%)
+      width: 40px
+      height: 135px
+      background: white
+      display: none
+      flex-direction: column
+      justify-content: space-evenly
+      align-items: center
+   .banner-image
+      height: 65vw
+      min-height: 280px
+      width: 100%
+      max-width: 967px
+      position: absolute
+      bottom: 0
+      right: 0
+      background-image: url('../images/girl-967.png')
+      background-position: center bottom
+      background-size: contain
+      background-repeat: no-repeat
+
+@media (min-width: 768px)
+   .banner
+      display: flex
+      flex-direction: column
+      justify-content: center
+      h1
+         margin-top: -50px
+      h1, h2, .banner-btn
+         margin-right: 53%
+         max-width: 560px
+      .banner-image
+         min-height: none
+         width: 55%
+         max-width: none
+         height: 100%
+         position: absolute
+         bottom: 0
+         background-image: url('../images/girl-967.png')
+         background-position: right bottom
+   
+   @media (min-width: 1000px)
+      .banner
+         display: flex
+         flex-direction: column
+         justify-content: center
+         h1
+            margin-top: -100px
