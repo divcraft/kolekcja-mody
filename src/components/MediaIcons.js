@@ -26,8 +26,8 @@ const MediaIcons = () => {
          path: '/'
       },
    ]
-   const icons = () => svg.map(icon => (
-      <Link to={icon.path}>
+   const icons = () => svg.map((icon, i) => (
+      <Link key={i} to={icon.path}>
          <Image src={icon.img} alt={icon.alt} />
       </Link>
    ))
