@@ -5,6 +5,7 @@ import Banner from '../components/Banner';
 import OfferSection from '../components/OfferSection';
 import Footer from '../components/Footer';
 import NewestSection from '../components/NewestSection';
+import BrandsSection from '../components/BrandsSection';
 
 const HomePage = () => {
    const { offerList, newest } = contentHome
@@ -17,6 +18,7 @@ const HomePage = () => {
          <main>
             <OfferSection offerList={offerList} />
             <NewestSection newest={newest} />
+            <BrandsSection />
          </main>
          <footer>
             <Footer />

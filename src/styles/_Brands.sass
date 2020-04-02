@@ -1,0 +1,48 @@
+.brands
+   h1
+      padding: 20px 0
+   .brands-slider
+      position: relative
+      &:hover > button
+         opacity: 1
+      button
+         opacity: 0
+         transition: .2s
+         cursor: pointer
+         position: absolute
+         top: 0
+         bottom: 0
+         width: 5%
+         border: none
+         background-color: $c-gray-dark
+         &:hover
+            background-color: #494949
+         &:first-child
+            transform: rotate(180deg)
+         &:last-child
+            right: 0
+         img
+            margin: auto
+            width: 50%
+            max-width: 15px
+      .brands-images
+         padding: 15px 0
+         display: flex
+         align-items: center
+         margin: 0 5%
+         position: relative
+         overflow-x: hidden
+         img
+            flex-shrink: 0
+            width: 50%
+            max-width: 500px
+            padding: 15px
+            filter: grayscale(100%)
+            opacity: .6
+            transition: .2s
+            @media (min-width: 768px)
+               width: 25%
+               padding: 25px
+            &:hover
+               filter: grayscale(0%)
+               opacity: 1
