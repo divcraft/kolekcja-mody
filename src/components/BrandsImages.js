@@ -1,13 +1,16 @@
 import React from 'react';
 import Image from './Image';
 
-const BrandsImages = ({ brands }) => {
-   const images = brands.map(image => (
-      <Image src={image} alt='logo' />
+const BrandsImages = ({ brands, classMove }) => {
+   const images = brands.map((image, i) => (
+      <Image key={i} src={image} alt='logo' />
    ))
+   console.log(classMove)
    return (
-      <div className='brands-images'>
-         {images}
+      <div className="brands-images-wrapper">
+         <div className='brands-images' style={classMove}>
+            {images}
+         </div>
       </div>
    );
 }

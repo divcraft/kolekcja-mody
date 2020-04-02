@@ -3,9 +3,9 @@ import arrow from '../images/svg/arrow.svg';
 import Image from './Image';
 
 
-const BrandsButton = () => {
+const BrandsButton = ({ handleMove }) => {
    return (
-      <button>
+      <button onClick={handleMove}>
          <Image src={arrow} alt='arrow' />
       </button>
    );
