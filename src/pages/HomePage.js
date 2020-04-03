@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import NewestSection from '../components/NewestSection';
 import BrandsSection from '../components/BrandsSection';
 import DeliverySection from '../components/DeliverySection';
+import NewsletterSection from '../components/NewsletterSection';
 
 const HomePage = () => {
    const { offerList, newest } = contentHome
@@ -21,6 +22,7 @@ const HomePage = () => {
             <NewestSection newest={newest} />
             <BrandsSection />
             <DeliverySection />
+            <NewsletterSection />
          </main>
          <footer>
             <Footer />

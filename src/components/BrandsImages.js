@@ -5,7 +5,6 @@ const BrandsImages = ({ brands, classMove }) => {
    const images = brands.map((image, i) => (
       <Image key={i} src={image} alt='logo' />
    ))
-   console.log(classMove)
    return (
       <div className="brands-images-wrapper">
          <div className='brands-images' style={classMove}>
