@@ -9,25 +9,52 @@
       margin: 40px 0 25px
    p
       margin-bottom: 40px
-   form
-      input, button
-         display: block
-         margin: 0 auto
-         border: solid 2px $c-pink-dark
-         width: 245px
-         height: 70px
-         line-height: 70px
-         font-family: 'Lato', sans-serif;
-         font-size: 20px
-         color: white
-         text-align: center
-         transition: .2s
-      input
-         background-color: $c-pink-dark
-         margin-bottom: 5px
-      button
-         cursor: pointer
-         color: $c-pink-dark
-         text-decoration: none
-         background-color: white
+   .form-wrap
+      display: flex
+      justify-content: center
+      form
+         position: relative
+         display: flex
+         flex-direction: column
+         @media (min-width: 768px)
+            flex-direction: row
+         input, button
+            display: block
+            margin: 0 auto
+            border: solid 2px $c-pink-dark
+            width: 245px
+            height: 70px
+            line-height: 70px
+            font-family: 'Lato', sans-serif;
+            font-size: 20px
+            color: white
+            text-align: center
+            transition: .2s
+         input
+            background-color: $c-pink-dark
+            margin-bottom: 5px
+            @media (min-width: 768px)
+               margin-bottom: 0
+               margin-right: 5px
+         button
+            cursor: pointer
+            color: $c-pink-dark
+            text-decoration: none
+            background-color: white
+         svg
+            font-size: 28px
+            position: absolute
+            top: 23px
+            left: -35px
+            animation: fade .5s
+            &.fa-check-circle
+               color: lightgreen
+            &.fa-times-circle
+               color: darkred
+
+@keyframes fade
+   0%
+      opacity: 0
+   100%
+      opacity: 1
 
