@@ -1,0 +1,86 @@
+.ask-form
+   height: 883px
+   background-image: url('../images/form-img-768.jpg')
+   background-position: center
+   background-repeat: no-repeat
+   background-size: cover
+   @media (min-width: 768px)
+      background-image: url('../images/form-img-1366.jpg')
+      @media (min-width: 1367px)
+         background-image: url('../images/form-img-1920.jpg')
+   h1
+      max-width: 560px
+      width: 72%
+      margin: 0
+      padding: 50px 0 30px
+      text-align: left
+      @media (min-width: 768px)
+         padding: 150px 0 30px
+   .form-container
+      width: 100%
+      max-width: 490px
+      background-color: rgba(black, .6)
+      padding: 30px 10px
+      p  
+         color: white
+         padding-bottom: 20px
+      form
+         span
+            color: rgba(white, .6)
+            padding: 5px
+            display: inline-block
+            &::before
+               text-align: center
+               background-color: $c-pink-dark
+               content: '!'
+               color: white
+               display: inline-block
+               width: 20px
+               line-height: 20px
+               border-radius: 50%
+               margin-right: 5px
+         input, textarea, button
+            width: 100%
+            display: block
+            font-family: 'Lato', sans-serif;
+            font-size: 20px
+            border: none
+         input, textarea
+            padding: 5px
+         textarea
+            margin-top: 5px
+            resize: none
+            height: 170px
+         button
+            margin-top: 5px
+            cursor: pointer
+            background-color: $c-pink-dark
+            color: white
+            height: 45px
+            line-height: 45px
+            &:hover
+               background: $c-pink-darker
+   .notification
+      h1
+         animation: fade 4s both
+         position: fixed
+         top: 50%
+         left: 50%
+         transform: translate(-50%, -50%)
+         background-color: white
+         padding: 50px 0
+         border-radius: 25px
+         border: solid 3px $c-pink-dark
+         width: 90%
+         max-width: 700px
+         text-align: center
+
+@keyframes fade
+   0%
+      opacity: 0
+   20%
+      opacity: 1
+   80%
+      opacity: 1
+   100%
+      opacity: 0

@@ -8,6 +8,7 @@ import NewestSection from '../components/NewestSection';
 import BrandsSection from '../components/BrandsSection';
 import DeliverySection from '../components/DeliverySection';
 import NewsletterSection from '../components/NewsletterSection';
+import AskFormSection from '../components/AskFormSection';
 
 const HomePage = () => {
    const { offerList, newest } = contentHome
@@ -23,6 +24,7 @@ const HomePage = () => {
             <BrandsSection />
             <DeliverySection />
             <NewsletterSection />
+            <AskFormSection />
          </main>
          <footer>
             <Footer />
