@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/kolekcja-mody/static/css/main.15a2a572.chunk.css",
+    "main.js": "/kolekcja-mody/static/js/main.49f615f9.chunk.js",
+    "main.js.map": "/kolekcja-mody/static/js/main.49f615f9.chunk.js.map",
+    "runtime-main.js": "/kolekcja-mody/static/js/runtime-main.4244f501.js",
+    "runtime-main.js.map": "/kolekcja-mody/static/js/runtime-main.4244f501.js.map",
+    "static/js/2.a9f9661d.chunk.js": "/kolekcja-mody/static/js/2.a9f9661d.chunk.js",
+    "static/js/2.a9f9661d.chunk.js.map": "/kolekcja-mody/static/js/2.a9f9661d.chunk.js.map",
+    "index.html": "/kolekcja-mody/index.html",
+    "precache-manifest.ea8a9b43aa5b42e52463668f64b3b0fc.js": "/kolekcja-mody/precache-manifest.ea8a9b43aa5b42e52463668f64b3b0fc.js",
+    "service-worker.js": "/kolekcja-mody/service-worker.js",
+    "static/css/main.15a2a572.chunk.css.map": "/kolekcja-mody/static/css/main.15a2a572.chunk.css.map",
+    "static/js/2.a9f9661d.chunk.js.LICENSE.txt": "/kolekcja-mody/static/js/2.a9f9661d.chunk.js.LICENSE.txt",
+    "static/media/adidas-logo.png": "/kolekcja-mody/static/media/adidas-logo.3faa8e0d.png",
+    "static/media/arrow.svg": "/kolekcja-mody/static/media/arrow.1ba5b7bb.svg",
+    "static/media/converse-logo.png": "/kolekcja-mody/static/media/converse-logo.6d1aa9be.png",
+    "static/media/App.sass": "/kolekcja-mody/static/media/home-bg-768.120c10d2.jpg",
+    "static/media/hm-logo.png": "/kolekcja-mody/static/media/hm-logo.49aa44dc.png",
+    "static/media/hugo-boss-logo.png": "/kolekcja-mody/static/media/hugo-boss-logo.842eb8ea.png",
+    "static/media/levis-logo.png": "/kolekcja-mody/static/media/levis-logo.65dcc3e8.png",
+    "static/media/media-fb.svg": "/kolekcja-mody/static/media/media-fb.9d24164d.svg",
+    "static/media/media-gplus.svg": "/kolekcja-mody/static/media/media-gplus.fb58995c.svg",
+    "static/media/media-ig.svg": "/kolekcja-mody/static/media/media-ig.a803fa49.svg",
+    "static/media/menu-icon-gray.svg": "/kolekcja-mody/static/media/menu-icon-gray.896e241a.svg",
+    "static/media/menu-icon-white.svg": "/kolekcja-mody/static/media/menu-icon-white.2b7911b6.svg",
+    "static/media/new-balance-logo.png": "/kolekcja-mody/static/media/new-balance-logo.22de5915.png",
+    "static/media/news-img1-831.jpg": "/kolekcja-mody/static/media/news-img1-831.ad8ef4b8.jpg",
+    "static/media/pick-baby.svg": "/kolekcja-mody/static/media/pick-baby.f1aeaba9.svg",
+    "static/media/pick-man.svg": "/kolekcja-mody/static/media/pick-man.15593462.svg",
+    "static/media/pick-woman.svg": "/kolekcja-mody/static/media/pick-woman.36e71874.svg",
+    "static/media/reebok-logo.png": "/kolekcja-mody/static/media/reebok-logo.366dd8ec.png",
+    "static/media/zara-logo.png": "/kolekcja-mody/static/media/zara-logo.7b64f879.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4244f501.js",
+    "static/js/2.a9f9661d.chunk.js",
+    "static/css/main.15a2a572.chunk.css",
+    "static/js/main.49f615f9.chunk.js"
+  ]
+}
