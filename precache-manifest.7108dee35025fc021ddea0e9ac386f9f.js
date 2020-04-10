@@ -1,27 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3c85b2f35f35b4458063eb12e57f11aa",
+    "revision": "0be4e254cc1dfca492a9f14171f0ee8e",
     "url": "/kolekcja-mody/index.html"
   },
   {
-    "revision": "3e99aa677c0ba0e17bd0",
-    "url": "/kolekcja-mody/static/css/main.15a2a572.chunk.css"
+    "revision": "20d1039746bff5ca912e",
+    "url": "/kolekcja-mody/static/css/main.894e2675.chunk.css"
   },
   {
-    "revision": "fb606fb019d102ed412b",
-    "url": "/kolekcja-mody/static/js/2.a9f9661d.chunk.js"
+    "revision": "9979a3edebdd26621816",
+    "url": "/kolekcja-mody/static/js/2.a05c9d0e.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/kolekcja-mody/static/js/2.a9f9661d.chunk.js.LICENSE.txt"
+    "url": "/kolekcja-mody/static/js/2.a05c9d0e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3e99aa677c0ba0e17bd0",
-    "url": "/kolekcja-mody/static/js/main.49f615f9.chunk.js"
+    "revision": "20d1039746bff5ca912e",
+    "url": "/kolekcja-mody/static/js/main.53f8aa64.chunk.js"
   },
   {
     "revision": "7ebc0002dd0a57e8be94",
     "url": "/kolekcja-mody/static/js/runtime-main.4244f501.js"
+  },
+  {
+    "revision": "95db139bb4cfb5626dbdb5da96f916cd",
+    "url": "/kolekcja-mody/static/media/about-img1-1366.95db139b.jpg"
+  },
+  {
+    "revision": "67cd37579fca9ef5f6580ee89aa57ad9",
+    "url": "/kolekcja-mody/static/media/about-img1-1920.67cd3757.jpg"
+  },
+  {
+    "revision": "a70c0321f217efa1bddd4251ac7b6e5e",
+    "url": "/kolekcja-mody/static/media/about-img1-768.a70c0321.jpg"
+  },
+  {
+    "revision": "ea55cdf47e56fb2e05213c0638502f1c",
+    "url": "/kolekcja-mody/static/media/about-img2-768.ea55cdf4.jpg"
+  },
+  {
+    "revision": "e2116de769fc66362af0dc7020dc23a8",
+    "url": "/kolekcja-mody/static/media/about-img2-904.e2116de7.jpg"
   },
   {
     "revision": "3faa8e0d1a20d895691e24fa020d7503",
@@ -30,6 +50,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1ba5b7bbacaa517ae69adaf978c58df4",
     "url": "/kolekcja-mody/static/media/arrow.1ba5b7bb.svg"
+  },
+  {
+    "revision": "073612d7bf3257e119635751a1403c28",
+    "url": "/kolekcja-mody/static/media/check-icon.073612d7.svg"
+  },
+  {
+    "revision": "3b42fa7b86e606835e2508afe9bef8fc",
+    "url": "/kolekcja-mody/static/media/contact-address.3b42fa7b.svg"
+  },
+  {
+    "revision": "8382dae0d480e7d4668c1de1a8f9c72c",
+    "url": "/kolekcja-mody/static/media/contact-email.8382dae0.svg"
+  },
+  {
+    "revision": "41a86e773bf4ea5dc0af7d3d60122f60",
+    "url": "/kolekcja-mody/static/media/contact-phone.41a86e77.svg"
   },
   {
     "revision": "6d1aa9be823b8b7895a09f566fadb5ad",
@@ -116,6 +152,22 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kolekcja-mody/static/media/news-img1-831.ad8ef4b8.jpg"
   },
   {
+    "revision": "94d5690c9387d22633360e9a9c04b709",
+    "url": "/kolekcja-mody/static/media/news-img1.94d5690c.jpg"
+  },
+  {
+    "revision": "8701b516f6d01032ce355a0d4aeb299c",
+    "url": "/kolekcja-mody/static/media/news-img2.8701b516.jpg"
+  },
+  {
+    "revision": "7fe02fee276a4c2ffc025e187e0ca723",
+    "url": "/kolekcja-mody/static/media/news-img3.7fe02fee.jpg"
+  },
+  {
+    "revision": "01fec0b4e5378d7a8d0fd7f0246af200",
+    "url": "/kolekcja-mody/static/media/news-img4.01fec0b4.jpg"
+  },
+  {
     "revision": "f1aeaba98de90292478c3199b156e30a",
     "url": "/kolekcja-mody/static/media/pick-baby.f1aeaba9.svg"
   },
@@ -130,6 +182,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "366dd8ec4fda229677a711c28fec812b",
     "url": "/kolekcja-mody/static/media/reebok-logo.366dd8ec.png"
+  },
+  {
+    "revision": "4ca15543b092a6bd177c265d5c8cd3d0",
+    "url": "/kolekcja-mody/static/media/shopping-card.4ca15543.svg"
   },
   {
     "revision": "7b64f8791022944176f1a528dd9ac255",
