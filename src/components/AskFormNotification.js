@@ -1,9 +1,10 @@
 import React from 'react';
+import SectionTitle1 from './SectionTitle1';
 
 const AskFormNotification = () => {
    return (
       <div className="notification">
-         <h1>Wiadomość została wysłana</h1>
+         <SectionTitle1 title='Wiadomość została wysłana' />
       </div>
    );
 }

@@ -62,25 +62,23 @@
                background: $c-pink-darker
    .notification
       h1
-         animation: fade 4s both
+         animation: faded 2s 2 alternate
          position: fixed
          top: 50%
          left: 50%
          transform: translate(-50%, -50%)
          background-color: white
-         padding: 50px 0
-         border-radius: 25px
-         border: solid 3px $c-pink-dark
+         padding: 40px 0
+         border: solid 1px $c-pink-dark
+         box-shadow: 0 0 15px 3px $c-gray-dark
          width: 90%
          max-width: 700px
          text-align: center
 
-@keyframes fade
+@keyframes faded
    0%
       opacity: 0
-   20%
-      opacity: 1
-   80%
+   40%
       opacity: 1
    100%
-      opacity: 0
+      opacity: 1

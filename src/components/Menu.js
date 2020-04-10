@@ -1,23 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import MenuButton from './MenuButton';
 import MenuList from './MenuList';
 
-class Menu extends Component {
-   state = {
-      isMenuActive: false
-   }
-   handleToggleMenu = () => {
-      this.setState({ isMenuActive: !this.state.isMenuActive })
-   }
-   render() {
-      return (
-         <nav className="nav-menu">
-            <MenuButton handleToggleMenu={this.handleToggleMenu} isWhite={this.props.isWhite} />
-            <MenuList isMenuActive={this.state.isMenuActive} />
-         </nav>
-      );
-   }
+const Menu = (props) => {
+   return (
+      <nav className="nav-menu">
+         <MenuButton handleToggleMenu={props.handleToggleMenu} isWhite={props.isWhite} />
+         <MenuList isMenuActive={props.isMenuActive} />
+      </nav>
+   );
 }
 
 export default Menu;

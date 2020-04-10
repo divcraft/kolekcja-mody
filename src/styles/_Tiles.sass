@@ -1,0 +1,35 @@
+.tiles-h1
+   padding: 50px 0
+.tiles
+   text-align: center
+   display: flex
+   flex-direction: column
+   .tile
+      cursor: pointer
+      padding: 30px 0 40px 0
+      border-top: solid 2px $c-gray
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      &:hover
+         background-color: $c-gray-light
+      &:hover>img
+         transform: scale(1.1)
+      img
+         margin: 30px 0
+         transition: .2s
+      p
+         padding: 0 20px
+@media (min-width: 768px)
+   .tiles  
+      flex-direction: row
+      .tile
+         min-height: 20vw
+         padding: 45px 0 55px 0
+         flex-grow: 1
+         &:nth-child(2)
+            border-left: solid 2px $c-gray
+            border-right: solid 2px $c-gray
+         p
+            max-width: 300px

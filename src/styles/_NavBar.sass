@@ -18,9 +18,9 @@
       cursor: pointer
    nav
       ul
-         background: white
-         position: absolute
-         top: 108px
+         background: rgba(white, .9)
+         position: fixed
+         top: 100px
          bottom: 0
          left: 0
          right: 0
@@ -43,6 +43,10 @@
                color: white
 @media (min-width: 768px)
    .nav-bar
+      &.white-bg a.active
+         color: $c-gray-dark
+         background: none
+         border-bottom: solid 3px $c-pink-light
       &.white-bg a
          color: $c-gray-dark
          &:hover

@@ -9,7 +9,10 @@ const OfferSection = ({ offerList }) => {
    const images = [womanImg, manImg, babyImg]
    return (
       <section className="offer">
-         <SectionTitle1 title={offerList.title} />
+         <div className="tiles-h1">
+            <SectionTitle1 title={offerList.title} />
+
+         </div>
          <Tiles tiles={offerList.tiles} images={images} />
       </section>
    );

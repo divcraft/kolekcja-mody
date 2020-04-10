@@ -1,0 +1,49 @@
+.news-list
+   ul
+      li
+         display: flex
+         flex-direction: column
+         img
+         article
+            border-bottom: solid 2px $c-gray-light
+            h1, h2 , p, a
+               display: block
+               width: 90%
+               margin: auto
+            hgroup
+               background-color: $c-gray-light
+               padding: 20px 0
+               h1
+                  text-align: left
+                  padding-bottom: 10px
+                  padding-top: 0
+                  font-weight: normal
+               h2
+                  font-weight: 300
+                  font-family: 'Lato', sans-serif;
+                  font-size: 24px
+                  color: $c-gray-dark
+            p
+               margin: 15px auto
+            a
+               margin: 0px auto 30px
+               text-decoration: none
+               color: $c-pink-dark
+               &:hover
+                  text-decoration: underline
+
+@media (min-width: 768px)
+   .news-list
+      ul
+         li
+            flex-direction: row
+            margin-bottom: 30px
+            img
+               width: 35%
+               max-height: 450px
+               object-fit: cover
+            article
+               width: 65%
+               p
+                  margin-left: 5%
+                  max-width: 900px
