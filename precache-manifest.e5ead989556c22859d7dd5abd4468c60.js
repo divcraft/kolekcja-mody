@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0be4e254cc1dfca492a9f14171f0ee8e",
+    "revision": "102596dbe7fe6130215cb9641db4d9be",
     "url": "/kolekcja-mody/index.html"
   },
   {
-    "revision": "20d1039746bff5ca912e",
+    "revision": "fc833490a73f71db1927",
     "url": "/kolekcja-mody/static/css/main.894e2675.chunk.css"
   },
   {
-    "revision": "9979a3edebdd26621816",
-    "url": "/kolekcja-mody/static/js/2.a05c9d0e.chunk.js"
+    "revision": "39385212c9e020e17b57",
+    "url": "/kolekcja-mody/static/js/2.30766349.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/kolekcja-mody/static/js/2.a05c9d0e.chunk.js.LICENSE.txt"
+    "url": "/kolekcja-mody/static/js/2.30766349.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "20d1039746bff5ca912e",
-    "url": "/kolekcja-mody/static/js/main.53f8aa64.chunk.js"
+    "revision": "fc833490a73f71db1927",
+    "url": "/kolekcja-mody/static/js/main.8da21a28.chunk.js"
   },
   {
     "revision": "7ebc0002dd0a57e8be94",
