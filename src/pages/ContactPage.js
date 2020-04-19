@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
+
 import contentContact from '../content/contentContact';
 import MainHeader from '../components/MainHeader';
 import NavBar from '../components/NavBar';
@@ -17,6 +19,9 @@ class ContactPage extends Component {
       const { contactData } = contentContact
       return (
          <>
+            <Helmet>
+               <title>Kolekcja mody - Kontakt</title>
+            </Helmet>
             <header>
                <NavBar />
                <MainHeader title='Kontakt' />

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
 import contentHome from '../content/contentHome';
 import NavBar from '../components/NavBar';
 import Banner from '../components/Banner';
@@ -14,6 +15,9 @@ const HomePage = () => {
    const { offerList, newest } = contentHome
    return (
       <>
+         <Helmet>
+            <title>Kolekcja mody</title>
+         </Helmet>
          <header className='header-home'>
             <NavBar pathHome={true} />
             <Banner />
